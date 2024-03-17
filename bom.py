@@ -4,6 +4,7 @@ import re
 import shutil
 import os.path
 from config import *
+# 깃허브 테스트
 
 bom_list_all = [] # 엑셀 전체 행 
 bom_list = [] # 엑셀 1개의 행에 해당
@@ -1038,6 +1039,7 @@ for oc,oi in zip(outsol_total_code,outsol_itself):
         bom_list_all.append([]) # 빈 행 추가
 
 bom_list_all.append([]) # 빈 행 추가
+
 
 
 bottom_size = 225 
